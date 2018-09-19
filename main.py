@@ -2,6 +2,7 @@ from flask import Flask, request
 from flask_restful import Api
 from flask_jwt import JWT, jwt_required, JWTError
 from resources.feedback import Feedback
+import admin.startup
 
 from resources.security import authenticate, indentity
 
