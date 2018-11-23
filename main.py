@@ -9,7 +9,7 @@ from resources.security import authenticate, indentity
 
 app = Flask(__name__)
 app.secret_key = "das ist mein eigener test"
-app.config['APPINSIGHTS_INSTRUMENTATIONKEY'] = '624b7480-cc70-449f-ac63-60410783b680'
+app.config['APPINSIGHTS_INSTRUMENTATIONKEY'] = 'ccef3b42-2b36-4ff6-b88f-f2df5528b91c'
 appinsights = AppInsights(app)
 
 
